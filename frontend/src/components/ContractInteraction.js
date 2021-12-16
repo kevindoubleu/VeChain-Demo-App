@@ -99,7 +99,7 @@ export default function ContractInteraction(props) {
     <fieldset>
       <legend>contract interaction</legend>
       { userAddress === "" ?
-        <p>please login first</p>
+        <p>please connect your wallet first</p>
       :
       <>
         { info.name ?
